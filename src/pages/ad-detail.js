@@ -2,26 +2,22 @@ import React, {Component} from 'react'
 import API from '../api/api'
 import {Link} from 'react-router-dom'
 
-class SmallImg extends Component{
-    render(){
-        var a = this.props.path
-        return(
-            <div className="">
-                {a.map(e => <img src={e} className="smallImg mt-3 rounded" key={e} alt={e}/>)}
-            </div>
-        )
-    }
+function SmallImg(){
+    const a = this.props.path
+    return(
+        <div className="">
+            {a.map(e => <img src={e} className="smallImg mt-3 rounded" key={e} alt={e}/>)}
+        </div>
+    )
 }
 
-class ImageViewer extends Component{
-    render(){
-        return(
-            <div className="col-lg-6">
-                <img src={this.props.images[0]} className="img-fluid rounded" alt={this.props.images[0]}/>
-                    <SmallImg path={this.props.images}/>
-            </div>
-        )
-    }
+function ImageViewer(){
+    return(
+        <div className="col-lg-6">
+            <img src={this.props.images[0]} className="img-fluid rounded" alt={this.props.images[0]}/>
+                <SmallImg path={this.props.images}/>
+        </div>
+    )
 }
 
 class AdDetail extends Component{
