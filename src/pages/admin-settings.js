@@ -1,7 +1,7 @@
 import React,{Component} from 'react'
 import API from '../api/api'
 
-function Loader(){
+const Loader = () => {
     return(
         <div className="text-center text-primary">
             <div className="spinner-border" role="status">
@@ -11,7 +11,7 @@ function Loader(){
     )
 }
 
-function SubmitBtn(){
+const SubmitBtn = () => {
     return(
         <input type="submit" value="Change password" className="btn btn-primary signInBtn" />
     )
