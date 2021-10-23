@@ -4,10 +4,6 @@ import {Link} from 'react-router-dom'
 class Thankyou extends Component{
     render(){
 
-        if(! sessionStorage.getItem("thankyou")){
-            window.location.assign("/")
-        }
-
         return(
             <div className="jumbotron text-center container">
                 <h1 className="display-3" style={{color:"#13519b"}}>Thank You!</h1>
