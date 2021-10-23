@@ -1,0 +1,327 @@
+body{
+    background-color: #dfe9f7af !important;
+}
+
+.type_msg{
+    height: 60px !important;
+    border-color: #4285F4 !important;
+}
+
+.type_msg:focus{
+    box-shadow: none !important;
+}
+.myStyleTitle{
+    color: #13519b;
+    font-size: 2rem;
+    font-family: 'Peddana', serif;
+}
+.add-link{
+    color: #242424 !important;
+}
+
+.add-link:hover{
+    text-decoration: none !important;
+}
+
+.btn{
+    background-color: #13519b !important;
+    color: white !important;
+}
+
+.logo{
+    width: 110px;
+}
+
+.chat-nav{
+    color: #fff;
+    margin-top: -15px;
+}
+
+.chat-nav:hover{
+    color: #fff;
+    margin-top: -15px;
+    text-decoration: none;
+}
+
+.my-nav-link{
+    color:  #13519b !important;
+    font-weight: 600;
+}
+.nav-link:active{
+    color:  #4285F4 !important;
+}
+
+.nav-link:hover{
+    color:  #4285F4 !important;
+}
+
+.nav-link:focus{
+    color:  #4285F4 !important;
+}
+
+.main-nav{
+    background-color: #fff;
+}
+
+.my-contflu-bor{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    background-color: #fff;
+
+}
+
+.home-hero-head{
+    color:#13519b;
+    font-weight: 800;
+    font-size: 60px;
+}
+.my-hero-bg{
+    background-color: #fff;
+}
+.home-img{
+    max-height: 500px;
+    object-fit: cover;
+    background-position: center;
+}
+.my-navbar{
+    background-color: #13519b;
+    height: 40px;
+    color: #fff;
+}
+
+.userNavbar{
+    background-color: #fff;
+}
+
+.nav-link{
+    color:#fff;
+}
+
+.navbar-text{
+    color:#fff;
+}
+
+.navbar-text:hover, .nav-link:hover{
+    color:#ddd345;
+}
+
+.search-input{
+    display: flex !important;
+    width:800px !important;
+}
+
+.hero-book-btn{
+    background-color: #13519b !important;
+    color: #fff !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.hero-book-btn:hover{
+    background-color: #232324 !important;
+    color: #fff !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.my-hero-col-8{
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/03/11/08/girl-5623231_960_720.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.my-ad-row{
+    border: 1px solid #dadada;
+    border-radius: 4px;
+}
+
+.listing-view-row{
+    border-radius: 6px;
+}
+
+.price-ad{
+    color: #34A853;
+}
+
+.recent-ads-link{
+    color: #242424;
+}
+
+.recent-ads{
+    margin-top: -10px !important;
+
+}
+
+.view-ad-img{
+    max-width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.listing-ads-title{
+    font-weight: 600;
+}
+
+.btn-danger{
+    background-color: rgb(173, 34, 34) !important;
+}
+
+.signInForm{
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    padding:30px;
+    padding-bottom: 30px;
+    /* box-shadow: 0 0 10px silver; */
+    border:1px solid silver;
+    margin-top: 50px;
+}
+.imageBanner{
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/19/17/41/friends-1149841_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerText{
+    background-color:rgba(0, 0, 0, 0.315);
+    padding:2px;
+    color:white;
+}
+
+.line{
+    margin-top: 20px;
+}
+.signInBtn{
+    margin-top: 20px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.noAccount{
+    margin-top: 15px;
+}
+.signInErrorMsg{
+    margin-top: 20px;
+}
+
+.jumbotron{
+    margin-top: 20px;
+}
+
+.smallImg{
+    width:100px;
+    height:100px;
+    margin-right: 30px;
+}
+.image-parent {
+    max-width: 40px;
+}
+.profileImg{
+    width: 300px;
+}
+
+.adBorder{
+    border:2px solid black;
+}
+
+.picker-cont{
+    box-shadow: 0px 0px 10px 0px #a8a8a861;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+
+.bk2-cont{
+    height: fit-content;
+}
+
+.bk-btn{
+    background-color: #4285F4 !important;
+    border-color: #4285F4 !important;
+}
+
+.sing-add-head{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.price-det-ad{
+    font-weight: 700;
+    color: #34A853;
+    margin-top: -50px;
+}
+
+.contact-ad{
+    color: #fff;
+    background-color: #34A853;
+    width: fit-content;
+    padding: 5px 8px;
+    margin-top: -25px;
+}
+
+.messageBody{
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px #b1b1b161;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:4px;
+}
+
+.chat{
+    position: absolute;
+    margin-top:50px;
+    background-color: red;
+}
+
+.user_img_msg{
+    width:50px;
+    height:50px;
+}
+
+.msg_cotainer{
+    margin-left: 5px;
+    color:rgb(61, 59, 59);
+    background-color:#a9b7ce;
+    border-radius: 25px;
+    padding-top: 5px !important;
+    margin-top: 8px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    height: 35px;
+}
+
+.msg_cotainer_send{
+    margin-right: 5px;
+    color:white;
+    background-color: #4285F4;
+    border-radius: 25px;
+    padding-top: 5px !important;
+    margin-top: 8px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    height: 35px;
+}
+
+.adminmsg-send{
+    width: fit-content;
+    float: right;
+}
+
+.input-group-text{
+    color:white !important;
+    background-color: #13519b !important;
+}
+
+.card-footer{
+    background-color: #fff !important;
+    border: none !important;
+}
+.DatePicker_dateDayItem__1lNPg{
+    width:60px !important;
+    height: 60px !important;
+}
+.DatePicker_button__1JMzH{
+    width:50px !important;
+    height: 50px !important;
+}
