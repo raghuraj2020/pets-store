@@ -11,11 +11,7 @@ function Loader(){
     )
 }
 
-function SubmitBtn(){
-    return(
-        <input type="submit" value="Sign in" className="btn btn-primary signInBtn" />
-    )
-}
+const SubmitBtn = () => <input type="submit" value="Sign in" className="btn btn-primary signInBtn" />
 
 class AdminLogIn extends Component{
 
